@@ -54,7 +54,7 @@ Digital-Card/
 └── README.md
 
 
-🧑‍💻 ** How to Run Locally**
+🧑‍💻 **How to Run Locally**
 
 Clone the repository:
 
