@@ -40,6 +40,21 @@ Language: **JavaScript (React JSX)**
 
 📁 **Project Structure**
 
+Digital-Card/
+
+├── public/
+│   └── index.html
+
+├── src/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       └── card.css
+
+├── package.json
+└── README.md
 
 
 
