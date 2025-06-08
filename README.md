@@ -40,18 +40,7 @@ Language: **JavaScript (React JSX)**
 
 📁 **Project Structure**
 
-Digital-Card/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   └── Card.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-│       └── card.css
-├── package.json
-└── README.md
+
 
 
 🧑‍💻 **How to Run Locally**
@@ -77,8 +66,11 @@ Edit
 npm start
 
 
+
 **Please Note:**
 This is my first project using React, created to understand component composition and JSX syntax. I'm continuously improving and iterating on the design and code quality as I learn more about React best practices.
+
+
 
 **License**
 This project is open-source and available under the MIT License.
