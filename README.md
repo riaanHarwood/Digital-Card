@@ -14,7 +14,7 @@ The digital-Card is a single-page application (SPA) that provides visual informa
 
 ✨ **Features**
 
-Built with ** React JSX**
+Built with **React JSX**
 
 Custom **CSS styling**
 
