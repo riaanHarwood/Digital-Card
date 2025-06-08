@@ -7,9 +7,12 @@ I developed this Digital-Card project as my first React application to practice 
 
 
 🚀**Project Overview**
+
 The digital-Card is a single-page application (SPA) that provides visual information in the form of a card, using React and CSS. It's designed to be lightweight and responsive, ideal for digital business cards or profile previews.
 
+
 ✨ **Features**
+
 Built with ** React JSX**
 
 Custom **CSS styling**
@@ -20,7 +23,9 @@ Component-based architecture
 
 Responsive and modern UI
 
+
 🛠️ **Tech Stack**
+
 Frontend Framework: **React.js**
 
 Styling: **CSS (vanilla)**
@@ -29,7 +34,10 @@ Icons: **Google Fonts (Material Symbols)**
 
 Language: **JavaScript (React JSX)**
 
-📁 **Project Structure**Digital-Card/
+
+📁 **Project Structure**
+
+Digital-Card/
 ├── public/
 │   └── index.html
 ├── src/
