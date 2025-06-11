@@ -1,16 +1,19 @@
 import React from 'react';
-import './card.css'; // Import your card-specific CSS
-import './media-card.css'; // Import your media-card-specific CSS
+import './card.css';
+import './media-card.css';
+import image from './profile-pic.png'; 
 
-
-function Card() {
+export const Example = () => {
   return (
     <div className="card">
-      <h1>John Doe</h1>
-      <h2>Software Developer</h2>
-      <p>Full stack engineer with over 5 years of experience</p>
+      <img className="profile-img" src={image} alt="Profile" />
+      <h2>John Smith</h2>
+      <h4>Software Developer</h4>
+      <p>Computer Science Graduate | React Enthusiast | Passionate about Software development and UI/UX</p>
+      <div className="buttons">
+        <button onClick={() => window.open('https://linkedin.com', '_blank')}>LinkedIn</button>
+        <button onClick={() => window.open('mailto:example@example.com')}>Email</button>
+      </div>
     </div>
   );
-}
-
-export default Card;
+};

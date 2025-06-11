@@ -1,64 +1,39 @@
-
 .card {
-  max-width: 350px;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  background: white;
-  text-align: center;
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
   padding: 20px;
-  font-family: "Helvetica Neue", sans-serif;
-  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 
-.profile-image {
-  width: 120px;
-  height: 120px;
+.profile-img {
+  width: 200px;
   border-radius: 50%;
-  object-fit: cover;
   margin-bottom: 15px;
-  border: 4px solid #f0f0f0;
 }
 
-.card-title {
-  font-size: 22px;
-  margin: 5px 0;
-  font-weight: 600;
-}
-
-.card-subtitle {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.card-description {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 20px;
-}
-
-.card-buttons {
+.buttons {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.card-buttons button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: 500;
-  background-color: #eee;
-  transition: 0.2s ease;
-}
-
-.card-buttons .primary {
-  background-color: #3897f0;
+.buttons button {
+  width: 120px; /* set a fixed width */
+  margin: 5px;
+  padding: 10px;
+  background-color: #1976d2;
   color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
 }
 
-.card-buttons button:hover {
-  opacity: 0.9;
+.buttons button:hover {
+  background-color: #1565c0;
 }
