@@ -71,7 +71,7 @@ npm start
 **Please Note:**
 This is my first project using React, created to understand component composition and JSX syntax. I'm continuously improving and iterating on the design and code quality as I learn more about React best practices.
 
-
+The profile image on the card is AI generated for testing and simplicity purposes. 
 
 **License**
 This project is open-source and available under the MIT License.
