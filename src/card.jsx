@@ -9,7 +9,7 @@ export const Example = () => {
       <img className="profile-img" src={image} alt="Profile" />
       <h2>John Smith</h2>
       <h4>Software Developer</h4>
-      <p>Computer Science Graduate | React Enthusiast | Passionate about Software development and UI/UX</p>
+      <p>Computer Science Graduate | React Enthusiast | Passionate about software development and artificial intelligence</p>
       <div className="buttons">
         <button onClick={() => window.open('https://linkedin.com', '_blank')}>LinkedIn</button>
         <button onClick={() => window.open('mailto:example@example.com')}>Email</button>

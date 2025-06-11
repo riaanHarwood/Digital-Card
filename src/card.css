@@ -1,39 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #1e3a8a, #1dd3b0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   width: 400px;
   height: 500px;
   margin: 50px auto;
   padding: 20px;
-  background: #fff;
-  border-radius: 12px;
+  background: #1e1e1e;
+  color: white; 
+  border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   text-align: center;
   font-family: 'Arial', sans-serif;
 }
 
+.card h4 {
+  color: #aaa; /* light grey - adjust as needed */
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.card p {
+  color: #888; /* darker grey */
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
 .profile-img {
   width: 200px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .buttons button {
   width: 120px; /* set a fixed width */
   margin: 5px;
   padding: 10px;
-  background-color: #1976d2;
+  background-color: black;
   color: white;
-  border: none;
-  border-radius: 6px;
+  border: 2px solid white;   /* white border */
+  border-radius: 20px;
   cursor: pointer;
   text-align: center;
 }
 
 .buttons button:hover {
-  background-color: #1565c0;
+  background-color: white;
+  color: black;
 }
