@@ -1,5 +1,4 @@
 # Digital-Card 
-
 I developed this Digital-Card project as my first React application to practice my skills and deepen my understanding of the React library. The project is a simple, elegant card-style layout built using React. This project showcases personal or professional information of the user through a clean user-friendly interface. As my first React project, it showcases foundational knowledge of the React library, including component-based architecture, styling, and responsive design principles.
 
 
